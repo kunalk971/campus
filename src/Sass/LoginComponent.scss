@@ -1,0 +1,151 @@
+
+$login-btn:rgb(180, 20, 126);
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.login-wrapper {
+  background-color: rgb(5, 1, 7) !important;
+  height: 100vh;
+  .login-wrapper-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    
+    
+.heading{
+    color: #870d6f;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left:200px;
+  }
+}
+.subheading{
+    color: #98b819;
+    font-size: 20px;
+    margin-left:200px;
+}
+
+
+
+
+.app-logo{
+    width :80px;
+    position:absolute;
+    top:20px;
+    left:20px;
+}
+
+/* Login Button Styles */
+.login-btn {
+    width : 150px;
+    height: 30px;
+    margin-left: 200px;
+    margin-top: 70px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 0px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 25px 24px;
+    border: none;
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+    // background: linear-gradient(to right, rgb(85, 11, 128) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+    background:#3c3d3c;
+    color: #fff;
+  }
+  
+  /* Hover Effect for Login Button */
+  .login-btn:hover {
+    background-color: #bb8a0f;
+    box-shadow: 0 0 8px rgba(187, 134, 252, 0.5);
+  }
+  
+    
+
+  
+  /* Input Fields Styles */
+  input[type="text"], input[type="email"], input[type="password"], textarea {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #1e1e1e;
+    color: #5013a6;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Focus States */
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    border-color: #a55efc;
+    box-shadow: 0 0 8px rgba(176, 114, 252, 0.5);
+    outline: none;
+  }
+  
+  /* Container Styles */
+  .auth-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top:80px;
+    gap: 10px;
+    width: 300px;
+    margin-left: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0c0c13;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-color: #26a510;
+    box-shadow: 0 0 8px rgba(229, 63, 143, 0.5);
+    outline: none;
+  }
+  
+  /* Placeholder Styles */
+  input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder, textarea::placeholder {
+    color: #0c0808;
+  }
+  
+  /* Disabled Styles */
+  input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"]:disabled, textarea:disabled {
+    background-color: #100707;
+    cursor: not-allowed;
+  }
+  
+  /* Styling for Error States */
+  input[type="text"].error, input[type="email"].error, input[type="password"].error, textarea.error {
+    border-color: #e1153a;
+    box-shadow: 0 0 8px rgba(145, 12, 36, 0.5);
+  }
+  
+  input[type="text"].error::placeholder, input[type="email"].error::placeholder, input[type="password"].error::placeholder, textarea.error::placeholder {
+    color: #d4062b;
+  }
+ 
+  
+
+  .google-btn {
+    padding: 10px 20px;
+    Fill: #131314 !important;
+    Stroke: #2dad58;
+    cursor: pointer;
+    margin-left:180px;
+    border-radius: 20px;
+    color:violet;
+    
+  }
+
+
+
+
+
+

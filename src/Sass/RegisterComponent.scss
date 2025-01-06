@@ -1,0 +1,84 @@
+
+.register-wrapper {
+    background-color: #050313;
+    color: #09891e;
+    font-family: -apple-system;
+    width:100%;
+    height:100vh;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .register-btn {
+    width : 150px;
+    height: 30px;
+    margin-left: 200px;
+    margin-top: 70px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 0px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 25px 24px;
+    border: none;
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+    background: rgb(171, 124, 15);
+    color: #fff;
+  }
+  
+  /* Hover Effect for Login Button */
+  .register-btn:hover {
+    background-color: #c89514;
+    box-shadow: 0 0 8px rgba(101, 8, 215, 0.5);
+  }
+  .auth-inputs-register {
+    display: flex;
+    flex-direction: column;
+    margin-top:80px;
+    gap: 10px;
+    width: 300px;
+    margin-left: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0c0c13;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-color: #26a510;
+    box-shadow: 0 0 8px rgba(229, 63, 143, 0.5);
+    outline: none;
+  }
+  
+  /* Placeholder Styles */
+  input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder, textarea::placeholder {
+    color: #0c0808;
+  }
+  /* Input Fields Styles */
+  
+  /* Container Styles */
+  
+  
+  /* Disabled Styles */
+  .heading{
+    color: #08a267;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left:200px;
+  }
+
+.subheading{
+    color: #98b819;
+    font-size: 20px;
+    margin-left:200px;
+}
+
+
+
+
+
+
+
+
+ 

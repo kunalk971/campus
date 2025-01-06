@@ -1,0 +1,39 @@
+.post-main{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+.post{
+    width:50%;
+    background-color: rgb(27, 27, 27);
+    margin-top:30px;
+    flex-direction: column;
+    position: relative;
+    height :120px;
+    border-radius: 10px;
+    align-items: center;
+    
+
+.open-post{
+    width: 80%;
+    height: 20px;
+    margin-top: 10vh;
+    margin-left: 3vh;
+    border-radius: 6px;
+    text-align: left;
+    color: rgb(143, 134, 134);
+    border:black;
+    background-color: rgb(56, 55, 56);
+    align-items: center;
+    
+}.open-post:hover{
+   background-color: rgb(14, 195, 77);
+}
+
+
+
+
+ }
+}
+
